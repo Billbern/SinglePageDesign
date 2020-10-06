@@ -14,9 +14,125 @@ body{
 /* Navbar Section */
 
 /* Header Section */
+.headersection {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	/*background-color: #FFFAE9;*/
+    
+}
+.headersection > div {
+	text-align: center;
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+}
+.headersection > div h2 {
+	margin-bottom: 25px;
+}
 
+.column {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	/*background-color: DodgerBlue;*/
+}
 
+.column > div {
+	/*background-color: #f1f1f1;*/
+	text-align: left;
+
+}
+
+.column > div.left{
+	/*background: blue;*/
+	padding: 30px;
+	width: 40%;
+	padding-left: 100px;
+}
+
+.column > div.right{
+	/*background: lightblue;*/
+	padding: 30px;
+	width: 60%;
+}
+
+.column > div.right p {
+	padding: 20px;
+	
+}
+
+.column > div.left p{
+	margin-bottom: 30px;
+	/*padding: 10px;*/
+}
+.column > div.left h4{
+	margin-bottom: 5px;
+}
+.column > div.right .button {
+	background-color: #6958D4;
+	border: none;
+	color: white;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 4px;
+	font-size: 18px;
+}
+
+.column > div.left ul {
+	list-style-position: inside;
+	margin-bottom: 30px;
+}
+
+/*section {
+	background: white;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+section div.headersection {
+	background: yellow;
+}*/
+
+/*@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }*/
 /* Blue Gray Section */
+
+.bluegraysection {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	background: #FFFAE9;
+	text-align: center;
+	padding: 20px;
+	
+}
+
+
+.bluegraysection > div{
+	background: white;
+	margin: auto;
+	width: 250px;
+	padding: 20px;
+	text-align: left;
+}
+.bluegraysection > div p{
+	margin-bottom: 30px;
+}
+/*.bluegraysection .button {
+	margin-left: 160px;
+	padding: 8px 15px;
+
+}*/
+
 
 
 /* Footer */
