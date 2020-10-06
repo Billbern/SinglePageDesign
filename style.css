@@ -12,6 +12,57 @@ body{
 }
 
 /* Navbar Section */
+li, a, button{
+	font-family: "Vendana" sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: black ;
+	text-decoration: none;
+
+}
+
+
+header{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30px 10%;
+}
+
+ 
+.navbar{
+	list-style: none;
+
+}
+
+.navbar li{
+	display: inline-block;
+	padding: 0px 20px;
+
+}
+
+.navbar li a{
+	transition: all 0.3s ease 8s;
+}
+
+.navbar li a:hover{
+	color: #0088a9;
+
+}
+
+button {
+	padding: 9px 25px;
+	background-color:rgb(0,126,100,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer; 
+	transition: all 0.3s ease 8s;
+
+}
+
+button:hover{
+	background-color:rgb(0,136,189,0.0s);
+}
 
 /* Header Section */
 .headersection {
@@ -136,3 +187,30 @@ section div.headersection {
 
 
 /* Footer */
+footer {
+	background-color: #eee;
+	margin: 10px auto;
+
+}
+footer h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+footer > div,
+footer > .divider {
+	display: inline-block;
+		vertical-align: middle;   
+}
+footer > div {
+	padding: 1%;
+	text-align: center;
+	width:30%;
+}
+
+footer > .divider {
+	font-style: normal;
+	height: 240px;
+	border: 1px solid #888;
+	-webkit-box-shadow: 1px 2px 1px #ccc;
+	box-shadow: 1px 2px 1px #ccc;
+}
